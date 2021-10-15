@@ -1,8 +1,8 @@
 package com.zyq.study.designpattern.factory.abstractfactory.af_interface;
 
-public class ProductB1 implements AbstractProductB {
+public class ConcreteProductB2 implements ProductB {
     @Override
     public void show() {
-        System.out.println("ProductB1.show");
+        System.out.println("ConcreteProductB2.show");
     }
 }

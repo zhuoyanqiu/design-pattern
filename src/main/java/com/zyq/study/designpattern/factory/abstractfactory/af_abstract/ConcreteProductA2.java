@@ -1,8 +1,8 @@
 package com.zyq.study.designpattern.factory.abstractfactory.af_abstract;
 
-public class ProductB2 extends AbstractProductB{
+public class ConcreteProductA2 extends ProductA{
     @Override
     void show() {
-        System.out.println("ProductB2.show");
+        System.out.println("ConcreteProductA2.show");
     }
 }
